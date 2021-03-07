@@ -89,7 +89,7 @@ header {
 }
 
 .icon {
-  fill: black;
+  fill: blue;
 }
 
 .social-list {
@@ -125,6 +125,11 @@ footer {
   border-radius: 50%;
 }
 
+.about-me {
+  padding: 8px;
+  /* text-align: center; */
+}
+
 .about-me-wrapper {
   display: flex;
   justify-content: center;
@@ -140,11 +145,6 @@ footer {
   text-align: center;
 }
 
-.about-me {
-  padding: 8px;
-  text-align: center;
-}
-
 .text {
   color: #2f4f4f;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -152,6 +152,11 @@ footer {
   font-size: 16px;
   line-height: 1.5;
   font-weight: 400;
+}
+
+.text .techskills {
+  font-style: italic;
+  font-weight: 500;
 }
 
 h3 {
@@ -163,33 +168,44 @@ h3 {
 
 .projects {
   padding: 15px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .projects h3 {
-  color: black;
+  color: #2f4f4f;
 }
 
 .projectsWrapper {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #2f4f4f;
 }
 
-.projects-list li {
+.prj-name {
+  margin-bottom: 5px;
+}
+
+.prj-wrapper {
   display: flex;
-}
-.projects-list li:not(:last-child) {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
-.projects-list a {
-  color: black;
+.prj-wrapper a {
+  color: blue;
+}
+
+.projects-list li:not(:last-child) {
+  margin-bottom: 20px;
 }
 
 .skills {
   padding: 15px;
-  text-align: center;
+  /* text-align: center; */
+}
+
+.skills h3 {
+  color: black;
 }
 
 .skillsWrapper {
@@ -200,15 +216,19 @@ h3 {
 
 .tech {
   margin-right: 200px;
+  text-align: center;
 }
 
+.soft {
+  text-align: center;
+}
 .skills h4 {
-  color: #2f4f4f;
+  color: black;
   margin-bottom: 10px;
 }
 
 .skills p {
-  color: #2f4f4f;
+  color: black;
 }
 
 .skillsWrapper ul {
@@ -225,12 +245,11 @@ h3 {
 
 .education {
   padding: 15px;
-  padding-bottom: 90px;
-  text-align: center;
+  /* text-align: center; */
 }
 
-.education h3 {
-  color: black;
+.education {
+  color: #2f4f4f;
 }
 
 .educationWrapper {
@@ -238,6 +257,7 @@ h3 {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .educationWrapper div {
@@ -260,8 +280,61 @@ h3 {
   margin-bottom: 10px;
 }
 
+.work {
+  padding: 15px;
+}
+
+.work h3 {
+  color: black;
+}
+
+.work h4 {
+  margin-bottom: 5px;
+}
+
+.job {
+  color: blue;
+}
+
+.workWrapper {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.goit,
+.ujd {
+  margin-right: 15px;
+}
+
+.lang {
+  padding: 15px;
+  margin-bottom: 50px;
+}
+
+.lang h3 {
+  color: black;
+}
+
+.langTitle {
+  font-weight: 500;
+}
+
+.langTitle span {
+  font-weight: 400;
+}
+
+.lang-list {
+  display: flex;
+  justify-content: center;
+}
+
+.lang-list-item:not(:last-child) {
+  margin-right: 15px;
+}
+
 footer p {
-  color: #2f4f4f;
+  color: black;
 }
 
 footer p:not(:last-child) {
