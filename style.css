@@ -265,19 +265,19 @@ h3 {
 }
 
 .educationWrapper div:nth-child(1) {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .educationWrapper div:nth-child(2) {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .educationWrapper h4 {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .educationWrapper p {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .work {
@@ -309,7 +309,7 @@ h3 {
 
 .lang {
   padding: 15px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .lang h3 {
