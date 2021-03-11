@@ -334,7 +334,7 @@ h3 {
 }
 
 footer p {
-  color: black;
+  color: #2f4f4f;
 }
 
 footer p:not(:last-child) {
