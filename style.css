@@ -222,6 +222,14 @@ h3 {
 .soft {
   text-align: center;
 }
+
+.tech,
+.soft {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 .skills h4 {
   color: black;
   margin-bottom: 10px;
